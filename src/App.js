@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+
 import './App.css';
+import LayoutRoutes from './LayoutRoutes/LayoutRoutes';
+// import Footer from './components/Footer/Footer';
+// import Header from './components/Header';
+// import Ambience from './pages/Ambience/Ambience';
+// import Booking from './pages/Booking/Booking';
+// import Delivery from './pages/Delivery/Delivery';
+// import Dishes from './pages/Dishes/Dishes';
+// import Partner from './pages/Partner/Partner';
+// import Welcome from './pages/Welcome/Welcome';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <div >
+    //  <Header/>
+    //  <Welcome/>
+    //  <Partner/>
+    //  <Booking/>
+    //  <Dishes/>
+    //  <Ambience/>
+    //  <Delivery/>
+    //  <Footer/>
+    // </div>
+    <>
+    <LayoutRoutes/>
+    </>
   );
 }
 
